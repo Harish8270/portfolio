@@ -137,11 +137,14 @@ body{
     color: #888;
 }
 
- .sBox{
+ .list-item.skill-item {
     display: flex;
     align-items: center;
-    justify-content: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
+}
+
+.sBox{
+    padding-right: 40px; 
 }
 
 .list-item .profile-links{
